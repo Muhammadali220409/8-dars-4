@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8-dars</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="">
+        <h1>Travel revervation form</h1>
+        <br>
+        <h4>*denotes mandotory</h4>
+        <br>
+        <br><p>Full name*</p>
+        <input type="text" placeholder="FirstName LastName" required>
+        <br>
+        <br>
+        <p>Email addres*</p>
+        <input type="email" placeholder="Email_addres" required>
+        <br>
+        <br>
+        <p>Select Tour Package*</p>
+        <select>
+            <option value="Goa">Goa</option>
+            <option value="USA">USA</option>
+        </select>
+        <br>
+        <br>
+        <p>Arrivel date*</p>
+        <input type="date" required>
+        <br>
+        <br>
+        <p>Number of persons*</p>
+        <input type="text" placeholder="Unkown_Type">
+        <br>
+        <br>
+        <p>What would you want to avail</p>
+        <label for="m">Boarding</label>
+        <input id="m" type="checkbox">
+        <br>
+        <label for="n">Fooding</label>
+        <input id="n" type="checkbox">
+        <br>
+        <label for="x">Sight seeing</label>
+        <input id="x" type="checkbox">
+        <br>
+        <br>
+        <p>Discount Coupon code:</p>
+        <input type="text" placeholder="Unkown_Type">
+        <br>
+        <br>
+        <p>Terms and conditions*</p>
+        <div>
+            <input type="radio" required>
+            <label for="k">I agree</label>
+            <input type="radio" required>
+            <label for="y">I disagree</label>
+        </div>
+        <br>
+        <button>Complete reservation</button>
+    </form>
+</body>
+</html>
